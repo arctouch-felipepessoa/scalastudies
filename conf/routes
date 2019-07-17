@@ -1,0 +1,7 @@
+GET     /                                       controllers.DeliveryController.index
+GET     /pack/:packId                           controllers.DeliveryController.getPacks(packId : Int)
+GET     /pizza/:pizzaId                         controllers.DeliveryController.getPizza(pizzaId : Int)
+GET     /packsByPizzaId/:pizzaId                controllers.DeliveryController.getPacksByPizzaId(pizzaId : Int)
+
+
+      
